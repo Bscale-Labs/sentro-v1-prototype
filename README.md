@@ -1,6 +1,6 @@
-# Sentro Demo — Legacy UI Prototype
+# Sentro v1 Prototype
 
-Older standalone Next.js prototype of Sentro's incident-response experience, retained for demo and design reference. The original UI work dates to January 2026; later maintenance updates do not turn it into the current platform.
+Legacy standalone Next.js UI prototype of Sentro's incident-response experience, retained for demo and design reference. The original UI work dates to January 2026; later maintenance updates do not turn it into the current platform.
 
 ## Purpose and scope
 
