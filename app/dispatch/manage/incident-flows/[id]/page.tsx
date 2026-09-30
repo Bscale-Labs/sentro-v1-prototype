@@ -90,14 +90,14 @@ export default function IncidentFlowDetailPage() {
   const [activeTab, setActiveTab] = useState("overview");
 
   const checklistByCategory = useMemo(() => {
-    if (!flow) return {} as Record<string, typeof flow.checklist>;
+    if (!flow) return {} as Record<string, IncidentFlow["checklist"]>;
     return flow.checklist.reduce((acc, item) => {
       if (!acc[item.category]) {
         acc[item.category] = [];
       }
       acc[item.category].push(item);
       return acc;
-    }, {} as Record<string, typeof flow.checklist>);
+    }, {} as Record<string, IncidentFlow["checklist"]>);
   }, [flow]);
 
   const intensitySignals = [
